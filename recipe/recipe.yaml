@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.2.3"
+  version: "3.2.4"
 
 recipe:
   # https://github.com/conda/conda-build/issues/3933
@@ -9,11 +9,11 @@ recipe:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/ae/77/053d7cedad989c2cf4e11a5846972528da7e016dba25c85ba007ce328243/pytensor-${{ version }}.tar.gz
-  sha256: ca64ae1a3da4b2df9abb19110f3c091bf5f3cbf06f3e4bbe2eaeedb04078ab58
+  url: https://files.pythonhosted.org/packages/29/4e/37b213744ce0b6728ecaada34642b05cc7ca686c0d14ece94155a2c0dace/pytensor-${{ version }}.tar.gz
+  sha256: 91b5d38c9d0162165544b29cbf2ae029427cab0a1c773ac42f687e41a86f6c67
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - package:
